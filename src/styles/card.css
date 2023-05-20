@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 5px double black;
+  padding: 0.5rem;
+}
+
+.card div {
+  padding: 0.5rem 0;
+}
+img {
+  max-width: 100%;
+}
+.rating {
+  padding: 1rem !important;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(10px, 1fr));
+  margin-top: auto;
+}
+
+.hero-img {
+  margin-top: auto;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  max-width: fit-content;
+  align-self: center;
+  padding: 0.3rem;
+}

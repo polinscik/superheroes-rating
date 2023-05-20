@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  font-family: "Bangers";
+}
+
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 .App-logo {
@@ -13,15 +20,18 @@
   }
 }
 
+@font-face {
+  font-family: "Bangers";
+  src: url(/assets/fonts/v_BlambotCasual_v1.0.ttf);
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
