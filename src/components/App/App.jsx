@@ -1,6 +1,6 @@
-import Card from "./components/Card";
-import "./App.css";
-import JsonData from "./JSONdata.json";
+import Card from "../Card/Card";
+import "../../style/App.css";
+import JsonData from "../../JSONdata.json";
 
 function App() {
   return (
